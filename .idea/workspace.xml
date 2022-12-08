@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="spring_mvc_hibernate_aop:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e33dbae5-805a-42eb-89a5-1793ec8a5e4d" name="Changes" comment="feat: setup configuration for project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/dao/EmployeeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/dao/EmployeeDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/entity/Employee.java" afterDir="false" />
+    <list default="true" id="e33dbae5-805a-42eb-89a5-1793ec8a5e4d" name="Changes" comment="feat: add DAO and Implementation it">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/all-employees.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +24,19 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,11 +55,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "spring.configuration.checksum": "6f75456e7264f95e2e96d91f115c24e2"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="TomEE 10.1.2" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 10.1.2" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 10.1.2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.2" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="spring_mvc_hibernate_aop:war exploded">
@@ -57,7 +70,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="9e381c00-07c9-4c71-8b8c-e786c188b1e7" />
+        <option name="BASE_DIRECTORY_NAME" value="7ab909b3-1402-4cb6-a0a8-b3dc40950ce6" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -65,7 +78,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56559" />
+        <option name="DEBUG_PORT" value="52945" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -143,7 +156,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670486121999</updated>
-      <workItem from="1670486124135" duration="10274000" />
+      <workItem from="1670486124135" duration="11248000" />
+      <workItem from="1670504536267" duration="200000" />
     </task>
     <task id="LOCAL-00001" summary="feat: setup configuration for project">
       <created>1670501935085</created>
@@ -152,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670501935085</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: add DAO and Implementation it">
+      <created>1670503567589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670503567589</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +193,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat: setup configuration for project" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: setup configuration for project" />
+    <MESSAGE value="feat: add DAO and Implementation it" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add DAO and Implementation it" />
   </component>
 </project>
