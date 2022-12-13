@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e33dbae5-805a-42eb-89a5-1793ec8a5e4d" name="Changes" comment="feat: add functionality add employee">
+    <list default="true" id="e33dbae5-805a-42eb-89a5-1793ec8a5e4d" name="Changes" comment="feat: add functionality update employee info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/controller/MyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/dao/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/dao/EmployeeDAO.java" afterDir="false" />
@@ -17,7 +17,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/services/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/services/EmployeeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/services/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/services/EmployeeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/all-employees.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/all-employees.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/employee-info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/employee-info.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +166,7 @@
       <workItem from="1670506679077" duration="38000" />
       <workItem from="1670567311961" duration="11795000" />
       <workItem from="1670825967890" duration="7715000" />
-      <workItem from="1670907769881" duration="2343000" />
+      <workItem from="1670907769881" duration="8033000" />
     </task>
     <task id="LOCAL-00001" summary="feat: setup configuration for project">
       <created>1670501935085</created>
@@ -190,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670584401321</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: add functionality update employee info">
+      <created>1670913577108</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670913577108</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +218,7 @@
     <MESSAGE value="feat: setup configuration for project" />
     <MESSAGE value="feat: add DAO and Implementation it" />
     <MESSAGE value="feat: add functionality add employee" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add functionality add employee" />
+    <MESSAGE value="feat: add functionality update employee info" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add functionality update employee info" />
   </component>
 </project>

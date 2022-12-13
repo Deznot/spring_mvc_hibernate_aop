@@ -2,6 +2,7 @@ package com.denisselitsky.mvc_hibernate_aop.controller;
 
 import com.denisselitsky.mvc_hibernate_aop.entity.Employee;
 import com.denisselitsky.mvc_hibernate_aop.services.EmployeeService;
+import jakarta.persistence.PostRemove;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -41,9 +42,16 @@ public class MyController {
 
     @RequestMapping("/updateInfo")
     public String updateEmployee(@RequestParam("empId") int id,Model model) {
-        System.out.println(id);
         Employee employee = employeeService.getEmployee(id);
         model.addAttribute("employee",employee);
         return "employee-info";
     }
+
+    @RequestMapping("/deleteEmployee")
+    public String deleteEmployee(@RequestParam("empId") int id) {
+        System.out.println(id);
+        employeeService.deleteEmployee(id);
+        return "redirect:/";
+    }
+
 }
