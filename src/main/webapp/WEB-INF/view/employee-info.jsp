@@ -7,6 +7,8 @@
 <body>
 
     <form:form action="saveEmployee" modelAttribute="employee">
+        <form:hidden path="id"></form:hidden>
+
         Name <form:input path="name"></form:input>
         <br><br>
         Surname <form:input path="surname"></form:input>
