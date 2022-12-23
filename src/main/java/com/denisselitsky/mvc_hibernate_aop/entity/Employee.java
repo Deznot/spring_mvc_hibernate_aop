@@ -13,15 +13,16 @@ public class Employee {
     private String name;
     @Column(name = "surname")
     private String surname;
-    @Column(name = "department")
-    private String department;
+    @ManyToOne(cascade = {CascadeType.PERSIST,CascadeType.REFRESH,CascadeType.MERGE,CascadeType.DETACH})
+    @JoinColumn(name = "department_id")
+    private Department department;
     @Column(name = "salary")
     private int salary;
 
     public Employee() {
     }
 
-    public Employee(String name, String surname, String department, int salary) {
+    public Employee(String name, String surname, Department department, int salary) {
         this.name = name;
         this.surname = surname;
         this.department = department;
@@ -52,11 +53,11 @@ public class Employee {
         this.surname = surname;
     }
 
-    public String getDepartment() {
+    public Department getDepartment() {
         return department;
     }
 
-    public void setDepartment(String department) {
+    public void setDepartment(Department department) {
         this.department = department;
     }
 
