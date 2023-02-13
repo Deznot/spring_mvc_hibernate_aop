@@ -9,10 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e33dbae5-805a-42eb-89a5-1793ec8a5e4d" name="Changes" comment="feat: add functionality aop MyLoggingAspect">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/entity/Department.java" afterDir="false" />
+    <list default="true" id="e33dbae5-805a-42eb-89a5-1793ec8a5e4d" name="Changes" comment="feat: add entity department and bi-directional associated between employee and Department">
+      <change afterPath="$PROJECT_DIR$/schema_myDb_pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_mvc_hibernate_aop_bd.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/dao/DepartmentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/dao/DepartmentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/entity/dto/CreateEmployeeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/services/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/services/DepartmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/dao/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/dao/EmployeeDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/entity/Department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denisselitsky/mvc_hibernate_aop/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/all-employees.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/all-employees.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/employee-info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/employee-info.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -169,6 +181,17 @@
       <workItem from="1671710346002" duration="1192000" />
       <workItem from="1671721736372" duration="598000" />
       <workItem from="1671815270837" duration="5950000" />
+      <workItem from="1671832112980" duration="148000" />
+      <workItem from="1671853510086" duration="1450000" />
+      <workItem from="1673936305623" duration="3388000" />
+      <workItem from="1674019234499" duration="5276000" />
+      <workItem from="1674192503061" duration="1663000" />
+      <workItem from="1674469014557" duration="1199000" />
+      <workItem from="1674536082697" duration="19285000" />
+      <workItem from="1674623349258" duration="18244000" />
+      <workItem from="1674710141093" duration="21623000" />
+      <workItem from="1675859490457" duration="2647000" />
+      <workItem from="1676271784190" duration="9132000" />
     </task>
     <task id="LOCAL-00001" summary="feat: setup configuration for project">
       <created>1670501935085</created>
@@ -212,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671006408677</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: add entity department and bi-directional associated between employee and Department">
+      <created>1671832243121</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671832243122</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +267,7 @@
     <MESSAGE value="feat: add functionality update employee info" />
     <MESSAGE value="feat: add functionality delete employee" />
     <MESSAGE value="feat: add functionality aop MyLoggingAspect" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add functionality aop MyLoggingAspect" />
+    <MESSAGE value="feat: add entity department and bi-directional associated between employee and Department" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add entity department and bi-directional associated between employee and Department" />
   </component>
 </project>

@@ -27,7 +27,7 @@
               <tr>
                   <td>${emp.name}</td>
                   <td>${emp.surname}</td>
-                  <td>${emp.department}</td>
+                  <td>${emp.department.department}</td>
                   <td>${emp.salary}</td>
                   <td>
                       <input type="button" value="update" onclick="window.location.href = '${updateButton}'">

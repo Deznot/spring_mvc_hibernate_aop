@@ -16,16 +16,9 @@ public class Department {
     @Column(name = "department")
     private String department;
 
-    @OneToMany(cascade = {CascadeType.PERSIST,CascadeType.REFRESH,CascadeType.MERGE,CascadeType.DETACH}, mappedBy = "department")
+    @OneToMany(cascade = {CascadeType.ALL}, mappedBy = "department")
     private List<Employee> empList;
 
-    public void addEmployeeToDepartment(Employee employee) {
-        if (empList == null) {
-            empList = new ArrayList<Employee>();
-        }
-        empList.add(employee);
-        employee.setDepartment(this);
-    }
     public Department() {
     }
 

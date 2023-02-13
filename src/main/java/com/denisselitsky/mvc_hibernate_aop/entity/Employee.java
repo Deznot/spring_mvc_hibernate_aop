@@ -2,6 +2,8 @@ package com.denisselitsky.mvc_hibernate_aop.entity;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
 @Table(name = "employees")
 public class Employee {
@@ -13,7 +15,7 @@ public class Employee {
     private String name;
     @Column(name = "surname")
     private String surname;
-    @ManyToOne(cascade = {CascadeType.PERSIST,CascadeType.REFRESH,CascadeType.MERGE,CascadeType.DETACH})
+    @ManyToOne(cascade = {CascadeType.REFRESH})
     @JoinColumn(name = "department_id")
     private Department department;
     @Column(name = "salary")
@@ -67,5 +69,16 @@ public class Employee {
 
     public void setSalary(int salary) {
         this.salary = salary;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", department=" + department +
+                ", salary=" + salary +
+                '}';
     }
 }
